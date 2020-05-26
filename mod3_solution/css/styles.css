@@ -1,0 +1,76 @@
+/***** Base Styling ******/
+* {
+	box-sizing: border-box;
+}
+
+p {
+	padding: 15px;
+}
+
+#Name {
+	font-size: 250%;
+	color: black;
+	margin: 10px;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: #FFC300;
+}
+
+.paddedBox {
+  border: 2px solid black;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FFC300;
+  margin-top: 20px;
+}
+
+#nav-list {
+	margin-top: 5px;
+}
+
+#nav-list a {
+	text-align: center;
+	color: #FFC300;
+	background-color: #900C3F;
+	border: 1px solid black;
+}
+
+#nav-list a:hover {
+	background-color: #FFC300;
+	color: #900C3F;
+}
+
+.navbar-header button {
+	margin: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #900C3F;
+}
+
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+
+/* Getting Navigation Bar to be full page width */
+.nav {
+	margin-bottom: 0;
+}
+
+/* Navigation Tags for the anchors to find content */
+#Chicken {
+	text-align: center;
+}
+
+#Beef {
+	text-align: center;
+}
+
+#Sushi {
+	text-align: center;
+}
+
